@@ -1,0 +1,59 @@
+.scrollDown #head {
+   transform: translate3d(0, -100%, 0);
+   transition-duration: 300ms;
+}
+
+.scrollUp #head {
+   transform: translate3d(0, 0, 0);
+   transition-duration: 300ms;
+}
+
+.scrollDown #search {
+   top: 0;
+   transition-duration: 300ms;
+}
+
+.scrollUp #search {
+   top: 100px;
+   transition-duration: 300ms;
+}
+.headingTOp #head {
+   background-color: #00000000;
+   transition-duration: 300ms;
+   margin-top: 20px;
+}
+
+.headingScroll #head {
+   background-color: black;
+   transition-duration: 300ms;
+   margin-top: 0;
+}
+
+.popup-toggle {
+   right: 400px;
+}
+
+.popup::backdrop {
+   background: rgba(0, 0, 0, 0.65);
+}
+
+.popup {
+   border: none;
+   border-radius: 6px;
+   animation: fade-slide-in-from-top 0.3s ease-in-out;
+}
+
+.popupscreen {
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fade-slide-in-from-top {
+   0% {
+      opacity: 0;
+      transform: translateY(-50px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
