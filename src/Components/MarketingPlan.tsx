@@ -31,7 +31,7 @@ const MarketingList = [
 export const MarketingPlan = () => {
    return (
       <div className="min-h-[800px] py-[50px] flex w-full flex-col self-center justify-center">
-         <div className="font-heading text-[45px] content-center self-center px-9 text-center leading-[50px]">
+         <div className="font-heading text-[45px] max-md:text-[35px] content-center self-center px-5 text-center leading-[50px]">
             Comprehensive Marketing Plan
          </div>
          <div className="grid self-center pt-5 gap-7 group grid-rows-1 grid-flow-col max-sm:grid-rows-4 max-[1450px]:grid-rows-2">

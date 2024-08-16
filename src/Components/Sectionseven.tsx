@@ -3,15 +3,15 @@ import image9 from "../assets/images/image9.png";
 export const Sectionseven = () => {
    return (
       <div className="flex max-w-[1900px] m-auto px-[5%] py-24 max-[1500px]:flex-col">
-         <div className="w-full self-center h-[600px]">
+         <div className="w-full self-center">
             <img
                src={image9}
                alt=""
-               className="h-[600px] w-[100%] object-cover object-left-top"
+               className="h-[600px] w-[100%] object-cover object-left-top max-lg:h-[300px]"
             />
          </div>
 
-         <div className="w-[45%] max-[1500px]:w-full p-12 max-md:px-7 shadow-xl">
+         <div className="w-[55%] max-[1500px]:w-full p-12 max-md:px-7 shadow-xl">
             <div className="text-[35px] font-heading pb-4 leading-10 font-semibold">
                The Hansen Partners Communications Tablet
             </div>

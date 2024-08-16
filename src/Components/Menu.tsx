@@ -7,6 +7,7 @@ const MenuList = [
       name: "Home",
       link: "https://hansenpartners.net/",
    },
+
    { name: "Contact Us", link: "https://hansenpartners.net/" },
 ];
 export const Menu: React.FC = () => {

@@ -29,7 +29,6 @@ interface ContactUsHandle {
 function App() {
    const modalRef = useRef<ContactUsHandle>(null);
 
-   // Handler to open the ContactUs modal
    function handleOpenContactUsClick() {
       if (modalRef.current) {
          modalRef.current.open();
