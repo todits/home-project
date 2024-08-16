@@ -1,6 +1,3 @@
-import React from "react";
-import { FaSearch } from "react-icons/fa";
-
 export const Heading = () => {
    return (
       <div className="w-full h-[55vh] bg-center bg-cover bg-[url('./assets/heading.jpeg')] min-h-[450px]">

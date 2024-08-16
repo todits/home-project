@@ -1,4 +1,3 @@
-import React from "react";
 import icon1 from "../assets/icons/responsive.png";
 import icon2 from "../assets/icons/syndication.png";
 import icon3 from "../assets/icons/tour.png";

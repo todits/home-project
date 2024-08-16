@@ -1,4 +1,3 @@
-import React from "react";
 import image10 from "../assets/images/image10.png";
 
 const List = [

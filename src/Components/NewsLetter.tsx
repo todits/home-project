@@ -1,5 +1,3 @@
-import React from "react";
-
 export const NewsLetter = () => {
    return (
       <div className="max-w-screen-2xl mx-auto px-[40px] flex w-full gap-8 mb-[100px] max-[1200px]:flex-col">

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Sectionfour = () => {
    return (
       <div className="bg-no-repeat bg-center bg-cover bg-[url('./assets/images/image6.png')]">

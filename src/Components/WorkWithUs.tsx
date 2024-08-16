@@ -1,5 +1,4 @@
 import React from "react";
-import image17 from "../assets/images/image17.png";
 
 interface ModalProps {
    openModal?: () => void;
